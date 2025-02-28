@@ -1,66 +1,73 @@
 .home-page {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Высота экрана */
-  }
-  
-  .event-program {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex: 1; /* Занимает оставшуюся высоту экрана */
-    padding: 0 20px;
-    background-color: #f4f4f9;
-  }
-  
-  .event-program-text {
-    max-width: 50%;
-  }
-  
-  .event-program-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .event-program-text p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-  
-  .event-program-actions {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .discuss-project-button,
-  .choose-course-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .discuss-project-button {
-    background-color: #007bff;
-    color: white;
-  }
-  
-  .discuss-project-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .choose-course-button {
-    background-color: #28a745;
-    color: white;
-  }
-  
-  .choose-course-button:hover {
-    background-color: #218838;
-  }
-  
-  .event-program-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
+  max-width: 1520px; /* Ширина макета */
+  margin: 0 auto;
+  padding: 0 20px; /* Отступы по бокам */
+}
+
+/* Section: Информация о программе мероприятия */
+.event-program {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.event-program-text {
+  max-width: 50%;
+}
+
+.event-program-text h1 {
+  font-size: 3rem; /* Большой заголовок */
+  color: #191919; /* Цвет заголовка */
+  margin-bottom: 20px;
+}
+
+.event-program-text h2 {
+  font-size: 2rem; /* Подзаголовок */
+  color: #9166f0; /* Цвет подзаголовка */
+  margin-bottom: 20px;
+}
+
+.event-program-text p {
+  font-size: 1.2rem;
+  color: #333; /* Цвет текста */
+  margin-bottom: 30px;
+}
+
+.event-program-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.discuss-project-button,
+.choose-course-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.discuss-project-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.discuss-project-button:hover {
+  background-color: #0056b3;
+}
+
+.choose-course-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.choose-course-button:hover {
+  background-color: #218838;
+}
+
+.event-program-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

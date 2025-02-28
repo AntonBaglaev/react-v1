@@ -1,26 +1,53 @@
-nav {
-  background-color: #007bff;
+.navbar {
+  background-color: #191919; /* Цвет фона меню */
   padding: 10px 20px;
 }
 
-nav ul {
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1520px; /* Базовая ширина макета */
+  margin: 0 auto;
+  background-color: #191919;
+}
+
+/* Логотип */
+.navbar-logo a {
+  color: white; /* Цвет шрифта логотипа */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Меню */
+.navbar-menu {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  max-width: 1520px; /* Базовая ширина макета */
-  margin: 0 auto;
+  gap: 20px; /* Расстояние между пунктами меню */
 }
 
-nav ul li {
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: white;
+.navbar-menu li a {
+  color: white; /* Цвет шрифта меню */
+  text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
+.navbar-menu li a:hover {
+  color: #9166f0; /* Цвет шрифта при наведении */
+}
+
+/* Номер телефона */
+.navbar-phone a {
+  color: white; /* Цвет шрифта номера телефона */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+.navbar-phone a:hover {
+  color: #9166f0; /* Цвет шрифта при наведении */
 }
