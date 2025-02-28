@@ -2,6 +2,9 @@
   display: flex;
   gap: 20px;
   margin-top: 20px;
+  max-width: 1520px; /* Базовая ширина макета */
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .event-list {

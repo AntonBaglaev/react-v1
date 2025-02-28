@@ -8,6 +8,8 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  max-width: 1520px; /* Базовая ширина макета */
+  margin: 0 auto;
 }
 
 nav ul li {

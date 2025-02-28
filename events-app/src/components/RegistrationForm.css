@@ -1,5 +1,5 @@
 .registration-form {
-  flex: 0 0 300px; /* Фиксированная ширина формы */
+  flex: 0 0 300px;
   background-color: white;
   padding: 20px;
   border-radius: 8px;
