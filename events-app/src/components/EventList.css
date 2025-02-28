@@ -1,0 +1,49 @@
+.event-list-container {
+  display: flex;
+  gap: 20px; /* Расстояние между списком мероприятий и формой */
+  margin-top: 20px;
+}
+
+.event-list {
+  flex: 1; /* Список мероприятий занимает оставшееся пространство */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-list h1 {
+  margin-top: 0;
+}
+
+.event-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.event-list ul li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.event-list ul li:last-child {
+  border-bottom: none;
+}
+
+.event-list ul li a {
+  margin-right: 10px;
+}
+
+.create-event-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.create-event-link:hover {
+  background-color: #218838;
+  text-decoration: none;
+}

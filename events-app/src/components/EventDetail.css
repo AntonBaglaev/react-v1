@@ -1,0 +1,14 @@
+.event-detail {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-detail h1 {
+  margin-top: 0;
+}
+
+.event-detail p {
+  line-height: 1.6;
+}
