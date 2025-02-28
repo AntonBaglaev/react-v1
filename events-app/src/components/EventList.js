@@ -12,7 +12,7 @@ const EventList = ({ events, onRegister }) => {
         {events.map(event => (
           <div key={event.id} className="event-item">
             <div className="event-image">
-              <img src={event.image || 'https://via.placeholder.com/150'} alt={event.title} />
+              <img src={event.previewImage || 'https://via.placeholder.com/150'} alt={event.title} />
             </div>
             <div className="event-info">
               <h2>

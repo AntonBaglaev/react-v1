@@ -13,6 +13,7 @@ const App = () => {
       date: '2023-10-15',
       description: 'Узнайте все о React!',
       image: 'https://via.placeholder.com/150', // Добавлено изображение
+      mainImage: 'https://via.placeholder.com/400',   // Основное изображение
       participants: [],
     },
     {
@@ -21,6 +22,7 @@ const App = () => {
       date: '2023-11-20',
       description: 'Практический воркшоп по Node.js.',
       image: 'https://via.placeholder.com/150', // Добавлено изображение
+      mainImage: 'https://via.placeholder.com/400',   // Основное изображение
       participants: [],
     },
     {
@@ -29,6 +31,7 @@ const App = () => {
       date: '2023-12-05',
       description: 'Обсуждение GraphQL и его преимуществ.',
       image: 'https://via.placeholder.com/150', // Добавлено изображение
+      mainImage: 'https://via.placeholder.com/400',   // Основное изображение
       participants: [],
     },
   ]);

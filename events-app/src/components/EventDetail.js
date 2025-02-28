@@ -13,6 +13,9 @@ const EventDetail = ({ events }) => {
   return (
     <div className="event-detail container">
       <h1>{event.title}</h1>
+      <div className="event-image">
+        <img src={event.mainImage || 'https://via.placeholder.com/400'} alt={event.title} />
+      </div>
       <p>{event.date}</p>
       <p>{event.description}</p>
       <div>
