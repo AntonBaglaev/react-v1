@@ -1,37 +1,66 @@
 .event-list-container {
   display: flex;
-  gap: 20px; /* Расстояние между списком мероприятий и формой */
+  gap: 20px;
   margin-top: 20px;
 }
 
 .event-list {
-  flex: 1; /* Список мероприятий занимает оставшееся пространство */
+  flex: 1;
+}
+
+.event-item {
+  display: flex;
+  gap: 20px;
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
-.event-list h1 {
+.event-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.event-info {
+  flex: 1;
+}
+
+.event-info h2 {
   margin-top: 0;
 }
 
-.event-list ul {
+.event-info p {
+  margin: 10px 0;
+}
+
+.edit-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
+}
+
+.event-participants {
+  flex: 1;
+}
+
+.event-participants h3 {
+  margin-top: 0;
+}
+
+.event-participants ul {
   list-style: none;
   padding: 0;
 }
 
-.event-list ul li {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
-}
-
-.event-list ul li:last-child {
-  border-bottom: none;
-}
-
-.event-list ul li a {
-  margin-right: 10px;
+.event-participants ul li {
+  padding: 5px 0;
 }
 
 .create-event-link {
@@ -41,9 +70,9 @@
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .create-event-link:hover {
   background-color: #218838;
-  text-decoration: none;
 }
